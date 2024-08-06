@@ -1,16 +1,29 @@
 # app_scrip_assignment
 
-A new Flutter project.
+**How to Run the App**:
 
-## Getting Started
+Prerequisites:
+Flutter SDK: Ensure you have the latest stable version of Flutter installed. You can download it from Flutter's official website.
 
-This project is a starting point for a Flutter application.
+Steps to Run:
+- Clone the Repository
+git clone https://github.com/KartikSaroha0801/kartik_saroha_app_scrip
+cd user_list_flutter_app
 
-A few resources to get you started if this is your first Flutter project:
+- Get Dependencies:
+flutter pub get
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Run the App
+flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Additional Notes
+Make sure your device/emulator is connected and properly set up before running the app.
+If you encounter any issues, please ensure that your Flutter environment is correctly configured by running flutter doctor.
+Assumptions and Decisions
+The app uses the GetX package for state management.
+Custom widgets are used for better code organization.
+The user detail screen shows additional information fetched from the same API endpoint.
+Splash and Onboarding Screens are added as extra features.
+
+Author
+Kartik Saroha
